@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 import MKBox from "components/MKBox";
 import MKAvatar from "components/MKAvatar";
-import team4 from "assets/images/team-4.jpg";
+import team4 from "assets/images/people/team-4.jpg";
 
 function AvatarSize() {
   return (

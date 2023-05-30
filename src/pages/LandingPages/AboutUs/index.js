@@ -9,7 +9,7 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import Information from "pages/LandingPages/AboutUs/sections/Information";
 import Team from "pages/LandingPages/AboutUs/sections/Team";
 import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
-import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
+import Contact from "pages/LandingPages/AboutUs/sections/Contact";
 import routes from "routes";
 import footerRoutes from "footer.routes";
 import bgImage from "assets/images/bg-about-us.jpg";
@@ -94,7 +94,7 @@ function AboutUs() {
         <Information />
         <Team />
         <Featuring />
-        <Newsletter />
+        <Contact />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

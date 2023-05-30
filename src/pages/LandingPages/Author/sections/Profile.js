@@ -5,7 +5,7 @@ import MKBox from "components/MKBox";
 import MKAvatar from "components/MKAvatar";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
-import profilePicture from "assets/images/bruce-mars.jpg";
+import profilePicture from "assets/images/people/bruce-mars.jpg";
 
 function Profile() {
   return (
