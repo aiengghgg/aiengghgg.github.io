@@ -1,15 +1,14 @@
 import Card from "@mui/material/Card";
 import MKBox from "components/MKBox";
 import Navbar from "layouts/Navbar";
-import Profile from "pages/members/Jkim/sections/Profile";
-import Posts from "pages/members/Jkim/sections/Posts";
-import Contact from "pages/members/Jkim/sections/Contact";
+import Profile from "pages/members/Bhban/sections/Profile";
+import Posts from "pages/members/Bhban/sections/Posts";
 import Footer from "layouts/Footer";
 import footerRoutes from "footer.routes";
 import routes from "routes";
 import bgImage from "assets/images/city-profile.jpg";
 
-function Jkim() {
+function Bhban() {
   return (
     <>
       <Navbar routes={routes} transparent light />
@@ -43,11 +42,10 @@ function Jkim() {
           <Profile />
           <Posts />
         </Card>
-        <Contact />
         <Footer content={footerRoutes} />
       </MKBox>
     </>
   );
 }
 
-export default Jkim;
+export default Bhban;

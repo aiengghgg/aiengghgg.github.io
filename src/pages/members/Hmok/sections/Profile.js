@@ -1,11 +1,9 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
 import MKBox from "components/MKBox";
 import MKAvatar from "components/MKAvatar";
-import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
-import profilePicture from "assets/images/people/bruce-mars.jpg";
+import profilePicture from "assets/images/people/bhban.jpg";
 
 function Profile() {
   return (
@@ -18,65 +16,20 @@ function Profile() {
           <Grid container justifyContent="center" py={6}>
             <Grid item xs={12} md={7} mx={{ xs: "auto", sm: 6, md: 1 }}>
               <MKBox display="flex" justifyContent="space-between" alignItems="center" mb={1}>
-                <MKTypography variant="h3">Michael Roven</MKTypography>
-                <MKButton variant="outlined" color="info" size="small">
-                  Follow
-                </MKButton>
+                <MKTypography variant="h3">Byunghyun Ban</MKTypography>
               </MKBox>
-              <Grid container spacing={3} mb={3}>
-                <Grid item>
-                  <MKTypography component="span" variant="body2" fontWeight="bold">
-                    323&nbsp;
-                  </MKTypography>
-                  <MKTypography component="span" variant="body2" color="text">
-                    Posts
-                  </MKTypography>
-                </Grid>
-                <Grid item>
-                  <MKTypography component="span" variant="body2" fontWeight="bold">
-                    3.5k&nbsp;
-                  </MKTypography>
-                  <MKTypography component="span" variant="body2" color="text">
-                    Followers
-                  </MKTypography>
-                </Grid>
-                <Grid item>
-                  <MKTypography component="span" variant="body2" fontWeight="bold">
-                    260&nbsp;
-                  </MKTypography>
-                  <MKTypography component="span" variant="body2" color="text">
-                    Following
-                  </MKTypography>
-                </Grid>
-              </Grid>
-              <MKTypography variant="body1" fontWeight="light" color="text">
-                Decisions: If you can&apos;t decide, the answer is no. If two equally difficult
-                paths, choose the one more painful in the short term (pain avoidance is creating an
-                illusion of equality). Choose the path that leaves you more equanimous. <br />
-                <MKTypography
-                  component="a"
-                  href="#"
-                  variant="body1"
-                  fontWeight="light"
-                  color="info"
-                  mt={3}
-                  sx={{
-                    width: "max-content",
-                    display: "flex",
-                    alignItems: "center",
-
-                    "& .material-icons-round": {
-                      transform: `translateX(3px)`,
-                      transition: "transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3)",
-                    },
-
-                    "&:hover .material-icons-round, &:focus .material-icons-round": {
-                      transform: `translateX(6px)`,
-                    },
-                  }}
-                >
-                  More about me <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-                </MKTypography>
+              <MKTypography variant="body1" color="info">
+                인공지능 연구위원
+              </MKTypography>
+              <br />
+              <MKTypography variant="body2" fontWeight="light" color="text">
+                균형감각의 인공지능 기술 연구를 담당하고 있습니다. 20여권의 저서를 출간한 작가이자,
+                30여건의 특허를 출원한 발명가이며, 10여건의 논문을 집필한 공학자입니다. 역사와
+                전통이 살아있는 분야에 첨단 기술을 끼얹어 파괴적 혁신을 추구하는 데에서 희열을
+                느낍니다.
+                <br />
+                현재 상상텃밭(주)의 CTO로 재직하며 농업 분야의 첨단 기술을 연구하고 있습니다.
+                <br />
               </MKTypography>
             </Grid>
           </Grid>
