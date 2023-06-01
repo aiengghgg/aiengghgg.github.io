@@ -18,12 +18,26 @@ function Places() {
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/bhban/books.jpg"
+              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/jlee/fastcampus.jpg"
+              title="Online Lecture"
+              description="챗GPT와 함께 정복하는 실전 영어! <평생 무료로 써먹는 나의 ChatGPT 영어 선생님> 강의를 제작했습니다."
+              action={{
+                type: "external",
+                route: "https://fastcampus.co.kr/data_online_chatgpte",
+                color: "info",
+                label: "Go!",
+              }}
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} lg={3}>
+          <Grid item xs={12} sm={6} lg={3}>
+            <TransparentBlogCard
+              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/jlee/books.jpg"
               title="Books"
-              description="벌써 20권이 넘는 책이 출판이 완료되었네요. 그거 아세요? 출판사에서 편집 중인 원고가 5권 더 있다는 사실을."
+              description="(머라고적죠)."
               action={{
                 type: "external",
-                route: "https://search.kyobobook.co.kr/search?keyword=%EB%B0%98%EB%B3%91%ED%98%84",
+                route: "https://search.shopping.naver.com/book/catalog/37153902621",
                 color: "info",
                 label: "Go!",
               }}
@@ -31,21 +45,7 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/bhban/youtube.jpg"
-              title="YouTube"
-              description="유익한듯 해괴한 컨텐츠를 만들고 있습니다."
-              action={{
-                type: "external",
-                route:
-                  "https://www.youtube.com/channel/UCpV0ZdloVwvSjxHfnYYQPQg?sub_confirmation=1",
-                color: "info",
-                label: "Go!",
-              }}
-            />
-          </Grid>
-          <Grid item xs={12} sm={6} lg={3}>
-            <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/bhban/researchgate.jpg"
+              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/jlee/researchgate.jpg"
               title="Researchgate"
               description="소소하게 하나씩 모은 10여편의 논문과 30여편의 특허를 살펴보세요!"
               action={{
