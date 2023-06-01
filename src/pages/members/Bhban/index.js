@@ -3,7 +3,6 @@ import MKBox from "components/MKBox";
 import Navbar from "layouts/Navbar";
 import Profile from "pages/members/Bhban/sections/Profile";
 import Posts from "pages/members/Bhban/sections/Posts";
-import Contact from "pages/members/Bhban/sections/Contact";
 import Footer from "layouts/Footer";
 import footerRoutes from "footer.routes";
 import routes from "routes";
@@ -43,7 +42,6 @@ function Bhban() {
           <Profile />
           <Posts />
         </Card>
-        <Contact />
         <Footer content={footerRoutes} />
       </MKBox>
     </>

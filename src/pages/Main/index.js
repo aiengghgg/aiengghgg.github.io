@@ -52,11 +52,10 @@ function Main() {
                 },
               })}
             >
-              Work with an amazing design
+              균형감각
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              We&apos;re constantly trying to express ourselves and actualize our dreams. If you
-              have the opportunity to play this game
+              <u>A</u>rtificial <u>I</u>ntelligence for <u>ENG</u>lish Learning
             </MKTypography>
           </Grid>
         </Container>

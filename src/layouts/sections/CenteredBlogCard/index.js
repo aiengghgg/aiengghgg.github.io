@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import Card from "@mui/material/Card";
 import MuiLink from "@mui/material/Link";
@@ -44,29 +43,17 @@ function CenteredBlogCard({ image, title, description, action }) {
             {description}
           </MKTypography>
         </MKBox>
-        {action.type === "external" ? (
-          <MKButton
-            component={MuiLink}
-            href={action.route}
-            target="_blank"
-            rel="noreferrer"
-            variant="gradient"
-            size="small"
-            color={action.color ? action.color : "dark"}
-          >
-            {action.label}
-          </MKButton>
-        ) : (
-          <MKButton
-            component={Link}
-            to={action.route}
-            variant="gradient"
-            size="small"
-            color={action.color ? action.color : "dark"}
-          >
-            {action.label}
-          </MKButton>
-        )}
+        <MKButton
+          component={MuiLink}
+          href={action.route}
+          target="_blank"
+          rel="noreferrer"
+          variant="gradient"
+          size="small"
+          color={action.color ? action.color : "dark"}
+        >
+          {action.label}
+        </MKButton>
       </MKBox>
     </Card>
   );
