@@ -18,12 +18,12 @@ function Places() {
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/bhban/books.jpg"
+              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/jlee/books.jpg"
               title="Books"
-              description="벌써 20권이 넘는 책이 출판이 완료되었네요. 그거 아세요? 출판사에서 편집 중인 원고가 5권 더 있다는 사실을."
+              description="인공지능과 빅데이터 기술을 활용한 영어 교육 방법을 정리한 교재를 출판했습니다."
               action={{
                 type: "external",
-                route: "https://search.kyobobook.co.kr/search?keyword=%EB%B0%98%EB%B3%91%ED%98%84",
+                route: "https://search.shopping.naver.com/book/catalog/37153902621",
                 color: "info",
                 label: "Go!",
               }}
@@ -31,13 +31,12 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/bhban/youtube.jpg"
-              title="YouTube"
-              description="유익한듯 해괴한 컨텐츠를 만들고 있습니다."
+              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/jlee/fastcampus.jpg"
+              title="Online Lecture"
+              description="챗GPT와 함께 정복하는 실전 영어! <평생 무료로 써먹는 나의 ChatGPT 영어 선생님> 강의를 제작했습니다."
               action={{
                 type: "external",
-                route:
-                  "https://www.youtube.com/channel/UCpV0ZdloVwvSjxHfnYYQPQg?sub_confirmation=1",
+                route: "https://fastcampus.co.kr/data_online_chatgpte",
                 color: "info",
                 label: "Go!",
               }}
@@ -45,25 +44,25 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/bhban/researchgate.jpg"
-              title="Researchgate"
-              description="소소하게 하나씩 모은 10여편의 논문과 30여편의 특허를 살펴보세요!"
+              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/jlee/lecture.jpg"
+              title="Offline Lecture"
+              description="대구 수성구 유명 학원의 영어강사로 활동하며 학생들을 지도하고 있습니다."
               action={{
-                type: "external",
-                route: "https://www.researchgate.net/profile/Byunghyun-Ban",
-                color: "info",
-                label: "Go!",
+                type: "",
+                route: "",
+                color: "",
+                label: "",
               }}
             />
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <BackgroundBlogCard
               image={post4}
-              title="Official Website"
-              description="개발, 강연, 사회공헌, 미술품 수집 등 더 다양한 정보를 한 눈에 살펴보려면?"
+              title="LinkedIn"
+              description="더 상세한 정보를 열람하시려면?"
               action={{
                 type: "external",
-                route: "https://needleworm.github.io",
+                route: "https://www.linkedin.com/in/jejong/",
                 label: "Go!",
               }}
             />

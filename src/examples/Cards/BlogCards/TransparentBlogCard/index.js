@@ -99,20 +99,7 @@ function TransparentBlogCard({ image, title, description, action }) {
             <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
           </MKTypography>
         ) : (
-          <MKTypography
-            component={MuiLink}
-            href={action.route}
-            target="_blank"
-            rel="noreferrer"
-            variant="body2"
-            fontWeight="regular"
-            color={action.color}
-            textTransform="capitalize"
-            sx={cardActionStyles}
-          >
-            {action.label}
-            <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
-          </MKTypography>
+          <MKTypography></MKTypography>
         )}
       </MKBox>
     </Card>

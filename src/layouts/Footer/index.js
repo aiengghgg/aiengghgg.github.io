@@ -6,7 +6,6 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 function Footer({ content }) {
-  // const { brand, socials, menus, copyright } = content;
   const { brand, menus, copyright } = content;
 
   return (
