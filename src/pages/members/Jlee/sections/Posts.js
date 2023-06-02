@@ -2,9 +2,9 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import TransparentBlogCard from "examples/Cards/BlogCards/TransparentBlogCard";
-import BackgroundBlogCard from "examples/Cards/BlogCards/BackgroundBlogCard";
-import post4 from "assets/images/examples/blog2.jpg";
+import TransparentBlogCard from "layouts/sections/TransparentBlogCard";
+import BackgroundBlogCard from "layouts/sections/BackgroundBlogCard";
+import post4 from "assets/images/blog2.jpg";
 
 function Places() {
   return (

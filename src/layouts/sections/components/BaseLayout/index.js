@@ -3,9 +3,9 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import CenteredFooter from "examples/Footers/CenteredFooter";
-import Breadcrumbs from "examples/Breadcrumbs";
+import DefaultNavbar from "layouts/sections/DefaultNavbar";
+import CenteredFooter from "layouts/sections/CenteredFooter";
+import Breadcrumbs from "layouts/sections/Breadcrumbs";
 import routes from "routes";
 
 function BaseLayout({ breadcrumb, title, children }) {

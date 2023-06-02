@@ -1,8 +1,8 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
-import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
-import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
+import DefaultInfoCard from "layouts/sections/DefaultInfoCard";
+import CenteredBlogCard from "layouts/sections/CenteredBlogCard";
 
 function Information() {
   return (

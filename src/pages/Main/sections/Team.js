@@ -2,7 +2,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard from "layouts/sections/HorizontalTeamCard";
 import team1 from "assets/images/people/bhban.jpg";
 import team2 from "assets/images/people/mok.jpg";
 import team3 from "assets/images/people/jejong.jpg";

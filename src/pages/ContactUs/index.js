@@ -3,7 +3,7 @@ import MKBox from "components/MKBox";
 import MKInput from "components/MKInput";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+import DefaultNavbar from "layouts/DefaultNavbar";
 import Footer from "layouts/Footer";
 import routes from "routes";
 import footerRoutes from "footer.routes";

@@ -1,7 +1,7 @@
 const badgesSimpleCode = `// @mui material componentsimport Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
-import Breadcrumbs from "examples/Breadcrumbs";
+import Breadcrumbs from "layouts/sections/Breadcrumbs";
 
 function BreadcrumbsEL() {
   return (
