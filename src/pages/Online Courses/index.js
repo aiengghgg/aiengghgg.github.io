@@ -3,18 +3,14 @@ import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import MKButton from "components/MKButton";
 import Navbar from "layouts/Navbar";
 import Footer from "layouts/Footer";
-import Information from "pages/AboutUs/sections/Information";
-import Team from "pages/AboutUs/sections/Team";
-import Featuring from "pages/AboutUs/sections/Featuring";
-import Contact from "pages/AboutUs/sections/Contact";
+import Information from "pages/Online Courses/sections/Information";
 import routes from "routes";
 import footerRoutes from "footer.routes";
-import bgImage from "assets/images/bg-about-us.jpg";
+import bgImage from "assets/images/covers/onlineLecture.jpg";
 
-function AboutUs() {
+function OnlineCourses() {
   return (
     <>
       <Navbar routes={routes} transparent light />
@@ -53,32 +49,11 @@ function AboutUs() {
                 },
               })}
             >
-              Work with an amazing design
+              Online Courses
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              We&apos;re constantly trying to express ourselves and actualize our dreams. If you
-              have the opportunity to play this game
+              We are providing online lectures on Ai-based English learning, for distant learners.
             </MKTypography>
-            <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
-              create account
-            </MKButton>
-            <MKTypography variant="h6" color="white" mt={8} mb={1}>
-              Find us on
-            </MKTypography>
-            <MKBox display="flex" justifyContent="center" alignItems="center">
-              <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                <i className="fab fa-facebook" />
-              </MKTypography>
-              <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                <i className="fab fa-instagram" />
-              </MKTypography>
-              <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                <i className="fab fa-twitter" />
-              </MKTypography>
-              <MKTypography component="a" variant="body1" color="white" href="#">
-                <i className="fab fa-google-plus" />
-              </MKTypography>
-            </MKBox>
           </Grid>
         </Container>
       </MKBox>
@@ -92,9 +67,6 @@ function AboutUs() {
         }}
       >
         <Information />
-        <Team />
-        <Featuring />
-        <Contact />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <Footer content={footerRoutes} />
@@ -103,4 +75,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default OnlineCourses;

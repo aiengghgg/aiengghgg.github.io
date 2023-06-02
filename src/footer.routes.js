@@ -10,13 +10,6 @@ export default {
   },
   menus: [
     {
-      name: "AI. Eng.",
-      items: [
-        { name: "About Us", route: "/about-us" },
-        { name: "Vision", route: "/vision" },
-      ],
-    },
-    {
       name: "Members",
       items: [
         { name: "B.Ban", route: "/bban" },
@@ -26,10 +19,15 @@ export default {
       ],
     },
     {
-      name: "Features",
+      name: "Research",
       items: [
         { name: "Papers", route: "/papers" },
         { name: "Apps", route: "/apps" },
+      ],
+    },
+    {
+      name: "Education",
+      items: [
         { name: "Publications", route: "/publications" },
         { name: "Online Courses", route: "/online_courses" },
       ],

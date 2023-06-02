@@ -6,7 +6,7 @@ import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 import team1 from "assets/images/people/bhban.jpg";
 import team2 from "assets/images/people/mok.jpg";
 import team3 from "assets/images/people/jejong.jpg";
-import team4 from "assets/images/people/ivana-square.jpg";
+import team4 from "assets/images/people/jkim.jpg";
 
 function Team() {
   return (
