@@ -5,7 +5,7 @@
   "author": "Byunghyun Ban",
   "license": "AI.Eng. All right reserved.",
   "description": "Artificial Intelligence for English Education",
-  "homepage": "https://aieng.kr",
+  "homepage": "https://needleworm.github.io/aieng",
   "dependencies": {
     "@emotion/cache": "11.10.7",
     "@emotion/react": "11.10.6",
