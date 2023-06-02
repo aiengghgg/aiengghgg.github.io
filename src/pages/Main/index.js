@@ -11,7 +11,7 @@ import Featuring from "pages/Main/sections/Featuring";
 import Contact from "pages/Main/sections/Contact";
 import routes from "routes";
 import footerRoutes from "footer.routes";
-import bgImage from "assets/images/bg-about-us.jpg";
+import bgImage from "assets/images/background.jpg";
 
 function Main() {
   return (
