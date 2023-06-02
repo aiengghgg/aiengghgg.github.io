@@ -10,9 +10,9 @@ function Information() {
         <Grid container spacing={3} alignItems="center">
           <Grid item xs={12} lg={4} alignItems="center">
             <CenteredBlogCard
-              image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-              title="Get insights on Search"
-              description="Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards."
+              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/features/papers1.jpg"
+              title="Analysis on English Vocabulary Appearance Pattern in Korean CSAT"
+              description="A text-mining-based word class categorization method and LSTM-based vocabulary pattern prediction method are introduced in this paper. A preprocessing method based on simple text appearance frequency analysis is first described. This method was developed as a data screening tool but showed 4.35 ~ 6.21 times higher than previous works. An LSTM deep learning method is also suggested for vocabulary appearance pattern prediction method. AI performs a regression with various size of data window of previous exams to predict the probabilities of word appearance in the next exam. Predicted values of AI over various data windows are processed into a single score as a weighted sum, which we call an 'AI-Score', which represents the probability of word appearance in next year's exam. Suggested method showed 100% accuracy at the range 100-score area and showed only 1.7% error of prediction in the section where the scores were over 60 points. All source codes are freely available at the authors' Git Hub repository."
               action={{
                 type: "internal",
                 route: "pages/company/about-us",
