@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.8e8f9e1c.js",
+    "main.js": "/static/js/main.f9e495a0.js",
     "static/media/books.jpg": "/static/media/books.fa83d56db12f8117547d.jpg",
     "static/media/apps.jpg": "/static/media/apps.08b25d4a6bf2f355d5fd.jpg",
     "static/media/city-profile.jpg": "/static/media/city-profile.4d64bba97c3d1757379e.jpg",
@@ -15,9 +15,9 @@
     "static/media/jejong.jpg": "/static/media/jejong.637033d991e3354e0909.jpg",
     "static/media/linear.png": "/static/media/linear.6b0a1c347a42d4cbe14f.png",
     "index.html": "/index.html",
-    "main.8e8f9e1c.js.map": "/static/js/main.8e8f9e1c.js.map"
+    "main.f9e495a0.js.map": "/static/js/main.f9e495a0.js.map"
   },
   "entrypoints": [
-    "static/js/main.8e8f9e1c.js"
+    "static/js/main.f9e495a0.js"
   ]
 }
