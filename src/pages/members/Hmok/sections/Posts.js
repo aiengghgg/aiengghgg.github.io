@@ -18,7 +18,7 @@ function Places() {
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/jlee/books.jpg"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/portfolios/jlee/books.jpg"
               title="Books"
               description="인공지능과 빅데이터 기술을 활용한 영어 교육 방법을 정리한 교재를 출판했습니다."
               action={{

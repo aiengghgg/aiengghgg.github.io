@@ -51,7 +51,7 @@ function Information() {
           </Grid>
           <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
             <CenteredBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/main/recent work.png"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/main/recent work.png"
               title="Get insights"
               description="Meet our recent work"
               action={{

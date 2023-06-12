@@ -10,7 +10,7 @@ function Information() {
         <Grid container spacing={3} alignItems="center">
           <Grid item xs={12} lg={4} alignItems="center">
             <CenteredBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/features/app1.JPG"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/features/app1.JPG"
               title="AI Voca"
               description="균형감각이 개발한 다양한 AI기반 영어 공부 방법을 쉽고 간편하게 체험할 수 있는 교육용 앱"
               action={{

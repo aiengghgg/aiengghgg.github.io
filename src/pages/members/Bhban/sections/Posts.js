@@ -18,7 +18,7 @@ function Places() {
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/bhban/books.jpg"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/portfolios/bhban/books.jpg"
               title="Books"
               description="벌써 20권이 넘는 책이 출판이 완료되었네요. 그거 아세요? 출판사에서 편집 중인 원고가 5권 더 있다는 사실을."
               action={{
@@ -31,7 +31,7 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/bhban/youtube.jpg"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/portfolios/bhban/youtube.jpg"
               title="YouTube"
               description="유익한듯 해괴한 컨텐츠를 만들고 있습니다."
               action={{
@@ -45,7 +45,7 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/bhban/researchgate.jpg"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/portfolios/bhban/researchgate.jpg"
               title="Researchgate"
               description="소소하게 하나씩 모은 10여편의 논문과 30여편의 특허를 살펴보세요!"
               action={{

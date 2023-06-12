@@ -10,7 +10,7 @@ function Information() {
         <Grid container spacing={3} alignItems="center">
           <Grid item xs={12} lg={4} alignItems="center">
             <CenteredBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/features/papers2.jpg"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/features/papers2.jpg"
               title="수능 영어시험의 어휘 등장 패턴 분석"
               description="반병현, 이제종, 황현목 (2022)"
               action={{
@@ -23,7 +23,7 @@ function Information() {
           </Grid>
           <Grid item xs={12} lg={4} alignItems="center">
             <CenteredBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/features/papers1.jpg"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/features/papers1.jpg"
               title="Analysis on English Vocabulary Appearance Pattern in Korean CSAT"
               description="B.Ban, J.Lee, H.Hwang (2022)"
               action={{

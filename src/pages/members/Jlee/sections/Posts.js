@@ -18,7 +18,7 @@ function Places() {
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/jlee/books.jpg"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/portfolios/jlee/books.jpg"
               title="Books"
               description="인공지능과 빅데이터 기술을 활용한 영어 교육 방법을 정리한 교재를 출판했습니다."
               action={{
@@ -31,7 +31,7 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/jlee/fastcampus.jpg"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/portfolios/jlee/fastcampus.jpg"
               title="Online Lecture"
               description="챗GPT와 함께 정복하는 실전 영어! <평생 무료로 써먹는 나의 ChatGPT 영어 선생님> 강의를 제작했습니다."
               action={{
@@ -44,7 +44,7 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/jlee/lecture.jpg"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/portfolios/jlee/lecture.jpg"
               title="Offline Lecture"
               description="대구 수성구 유명 학원의 영어강사로 활동하며 학생들을 지도하고 있습니다."
               action={{

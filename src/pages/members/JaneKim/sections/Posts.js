@@ -18,7 +18,7 @@ function Places() {
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/janekim/books.jpg"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/portfolios/janekim/books.jpg"
               title="Books"
               description="2020년부터 본격적으로 집필을 시작하였습니다. 인류 역사와 고전, 인문학에 기반하여 미래에 대한 궁금증과 고민을 해결하고 사람들의 마음에 밝은 빛을 밝히는 책을 써나가고 있습니다."
               action={{
@@ -32,7 +32,7 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/janekim/youtube.jpg"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/portfolios/janekim/youtube.jpg"
               title="YouTube"
               description="인공지능과 새로운 시대를 화두로 다양한 분야의 국내외 전문가분들을 연결하는 콘텐츠를 만들고 있습니다."
               action={{
@@ -46,7 +46,7 @@ function Places() {
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
             <TransparentBlogCard
-              image="https://cdn.jsdelivr.net/gh/needleworm/aieng/src/assets/images/portfolios/janekim/lecture.png"
+              image="https://cdn.jsdelivr.net/gh/aiengghgg/aiengghgg.github.io/src/assets/images/portfolios/janekim/lecture.png"
               title="Online Course"
               description="새로운 시대의 행복한 자기계발을 주제로 강의를 만들고 있습니다. 인공지능과 영어, 인문학을 연결하는 강의를 구상 중입니다."
               action={{
