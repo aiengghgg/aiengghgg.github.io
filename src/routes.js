@@ -9,6 +9,7 @@ import Bhban from "members/Bhban";
 import Hmok from "members/Hmok";
 import Jlee from "members/Jlee";
 import Jkim from "members/Jkim";
+import JaneKim from "members/JaneKim";
 
 const routes = [
   {
@@ -34,6 +35,11 @@ const routes = [
         name: "J. Kim",
         route: "/jkim",
         component: <Jkim />,
+      },
+      {
+        name: "Y. Kim",
+        route: "/janekim",
+        component: <JaneKim />,
       },
     ],
   },
