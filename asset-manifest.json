@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.f9e495a0.js",
+    "main.js": "/static/js/main.e49031bc.js",
     "static/media/books.jpg": "/static/media/books.fa83d56db12f8117547d.jpg",
     "static/media/apps.jpg": "/static/media/apps.08b25d4a6bf2f355d5fd.jpg",
     "static/media/city-profile.jpg": "/static/media/city-profile.4d64bba97c3d1757379e.jpg",
@@ -8,16 +8,17 @@
     "static/media/onlineLecture.jpg": "/static/media/onlineLecture.f29b232fd3a23c7b2141.jpg",
     "static/media/background.jpg": "/static/media/background.0d2a744e13c6f941a173.jpg",
     "static/media/blog2.jpg": "/static/media/blog2.aba7a3cb94805e9557d1.jpg",
-    "static/media/bhban.jpg": "/static/media/bhban.f1ea1c30b306d2931367.jpg",
+    "static/media/janekim.jpg": "/static/media/janekim.f44dd002f388b51f917c.jpg",
     "static/media/square.png": "/static/media/square.ad1768d311860b429aa2.png",
     "static/media/mok.jpg": "/static/media/mok.7d0f555174658be10a59.jpg",
     "static/media/jkim.jpg": "/static/media/jkim.d1503f04469ede58d1f4.jpg",
     "static/media/jejong.jpg": "/static/media/jejong.637033d991e3354e0909.jpg",
+    "static/media/bhban.jpg": "/static/media/bhban.6097f49be127b7afa20e.jpg",
     "static/media/linear.png": "/static/media/linear.6b0a1c347a42d4cbe14f.png",
     "index.html": "/index.html",
-    "main.f9e495a0.js.map": "/static/js/main.f9e495a0.js.map"
+    "main.e49031bc.js.map": "/static/js/main.e49031bc.js.map"
   },
   "entrypoints": [
-    "static/js/main.f9e495a0.js"
+    "static/js/main.e49031bc.js"
   ]
 }
