@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.e49031bc.js",
+    "main.js": "/static/js/main.c1afc0a1.js",
     "static/media/books.jpg": "/static/media/books.fa83d56db12f8117547d.jpg",
     "static/media/apps.jpg": "/static/media/apps.08b25d4a6bf2f355d5fd.jpg",
     "static/media/city-profile.jpg": "/static/media/city-profile.4d64bba97c3d1757379e.jpg",
@@ -16,9 +16,9 @@
     "static/media/bhban.jpg": "/static/media/bhban.6097f49be127b7afa20e.jpg",
     "static/media/linear.png": "/static/media/linear.6b0a1c347a42d4cbe14f.png",
     "index.html": "/index.html",
-    "main.e49031bc.js.map": "/static/js/main.e49031bc.js.map"
+    "main.c1afc0a1.js.map": "/static/js/main.c1afc0a1.js.map"
   },
   "entrypoints": [
-    "static/js/main.e49031bc.js"
+    "static/js/main.c1afc0a1.js"
   ]
 }
