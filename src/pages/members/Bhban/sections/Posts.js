@@ -63,7 +63,7 @@ function Places() {
               description="개발, 강연, 사회공헌, 미술품 수집 등 더 다양한 정보를 한 눈에 살펴보려면?"
               action={{
                 type: "external",
-                route: "https://needleworm.github.io",
+                route: "https://bhban.kr",
                 label: "Go!",
               }}
             />

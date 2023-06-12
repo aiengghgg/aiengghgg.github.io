@@ -60,11 +60,11 @@ function Places() {
           <Grid item xs={12} sm={6} lg={3}>
             <BackgroundBlogCard
               image={post4}
-              title="Official Website"
-              description="개발, 강연, 사회공헌, 미술품 수집 등 더 다양한 정보를 한 눈에 살펴보려면?"
+              title="LinkedIn"
+              description="더 상세한 정보를 열람하시려면?"
               action={{
                 type: "external",
-                route: "https://needleworm.github.io",
+                route: "https://www.linkedin.com/in/janeyeonjungkim",
                 label: "Go!",
               }}
             />
