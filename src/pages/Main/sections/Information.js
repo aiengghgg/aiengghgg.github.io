@@ -56,7 +56,7 @@ function Information() {
               description="Meet our recent work"
               action={{
                 type: "external",
-                route: "https://search.shopping.naver.com/book/catalog/37153902621",
+                route: "https://search.shopping.naver.com/book/catalog/40724311622",
                 color: "info",
                 label: "Recent Work",
               }}

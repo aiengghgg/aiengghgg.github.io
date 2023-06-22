@@ -15,7 +15,7 @@ function Information() {
               description="인류 역사상 가장 똑똑한 인공지능인 챗GPT를 나만의 영어 과외 선생님으로 만들어보자는 컨셉의 도서입니다. 읽기, 쓰기, 듣기, 말하기를 모두 훈련할 수 있습니다."
               action={{
                 type: "external",
-                route: "https://search.shopping.naver.com/book/catalog/37153902621",
+                route: "https://search.shopping.naver.com/book/catalog/40724311622",
                 color: "info",
                 label: "Details",
               }}
